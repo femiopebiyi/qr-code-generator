@@ -20,7 +20,7 @@ generateBtn[0].addEventListener('click',()=>{
 
 function generateQr(){
     let linkValue = linkInput.value
-    fetch(`http://api.qrserver.com/v1/create-qr-code/?data=${linkValue}&size=150x150`,{
+    fetch(`https://api.qrserver.com/v1/create-qr-code/?data=${linkValue}&size=150x150`,{
         method: "POST",
         
     }).then((res)=>{
