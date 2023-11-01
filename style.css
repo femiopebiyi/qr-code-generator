@@ -42,6 +42,7 @@ img{
     display: flex;
     justify-content: center;
     background: white;
+    padding: 15px;
 }
 
 button{

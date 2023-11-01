@@ -12,6 +12,9 @@ const generateBtn = document.querySelectorAll('button')
 // }
 
 generateBtn[0].addEventListener('click',()=>{
+
+    let input = linkInput.value;
+    if(!input) return;
     generateQr()
 })
 
